@@ -1,0 +1,10 @@
+spring:
+  view:
+    prefix: /view/
+    suffix: .jsp
+  jpa:
+    show-sql: true
+jetty:
+  port: 8888
+  context-path: /
+  document-root: /Users/yasuhiro/IdeaProjects/boot/core/src/main/resources/webapp

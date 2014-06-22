@@ -1,0 +1,26 @@
+{
+  "name": "boot",
+  "version": "0.0.1",
+  "authors": [
+    "tkd-yas <tkd.yas@gmail.com>"
+  ],
+  "description": "answer-boot",
+  "main": "boot.js",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "anser-boot"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1"
+  }
+}

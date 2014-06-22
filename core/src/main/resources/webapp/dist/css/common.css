@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+nav.navbar ul.navbar-nav>li.active {
+    border-bottom: #0084EA solid 5px;
+}
+nav.navbar ul.navbar-nav>li:hover {
+    border-bottom: #0084EA solid 5px;
+}
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 20px;
+    color: #ffffff;
+    background-color: #000000;
+    text-align: center;
+}
+
+html,body {
+    height: 100%;
+}
+
+dl.dl-horizontal dt {
+    padding-top: 10px;
+}
+dl.dl-horizontal dd {
+    padding-top: 10px;
+}
