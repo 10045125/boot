@@ -14,10 +14,10 @@ public class TeamTest {
   @Test(expected = UnsupportedOperationException.class)
   public void TeamGetMemberIsUnmodifiable() {
     Team sut = new Team();
-//    List<TeamMember> members = sut.getTeamMembers();
-//    sut.addTeamMember(new TeamMember()); // domain function is OK!
-//    assert members.size() == 1;
-//    members.add(new TeamMember());
+    List<TeamMember> members = sut.getTeamMembers();
+    sut.addTeamMember(new TeamMember()); // domain function is OK!
+    assert members.size() == 1;
+    members.add(new TeamMember());
   }
 
   @Test(expected = UnsupportedOperationException.class)
